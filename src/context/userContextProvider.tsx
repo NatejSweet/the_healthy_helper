@@ -44,6 +44,5 @@ export const logOut = () => {
 
 export function useUserContext() {
   const context = useContext(userContext);
-  console.log("context:", context);
   return context?.user;
 }
