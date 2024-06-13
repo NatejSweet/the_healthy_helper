@@ -101,7 +101,7 @@ export default function DiceColumn() {
                 margin: 0,
               },
               "& input[type=number]": {
-                "-moz-appearance": "textfield",
+                mozAppearance: "textfield",
               },
             }}
             InputLabelProps={{
